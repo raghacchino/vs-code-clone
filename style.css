@@ -35,7 +35,10 @@ nav {
     background: #0d1014;
     font-size: 16px;
     position: fixed;
+    top: 0;
+    left: 0;
     border-bottom: 1px solid #2b2f38;
+    z-index: 9999;
 }
 
 .nav-links {
@@ -181,7 +184,13 @@ nav {
 .down-theme-search i {
     color: #d4d4d4;
     font-size: 20px;
-    margin: 5px;
+    /* margin: 5px; */
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.down-theme-search i:hover {
+    background-color: #414141;
 }
 
 .down-theme-search button {
@@ -199,10 +208,87 @@ nav {
 /************************************** MAIN **************************************/
 
 main {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100vw;
-    height: 800px;
+    height: 1000px;
     background-image: url(./assets/main-bg-dark.png);
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: red; */
+    margin-top: 70px;
+    color: #fff;
 }
+
+main h2 {
+    position: absolute;
+    top: 40px;
+    font-size: 60px;
+}
+
+main h3 {
+    position: absolute;
+    top: 130px;
+    font-size: 28px;
+}
+
+.download-container {
+    position: absolute;
+    top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0d1014;
+    padding: 18px;
+    border-radius: 12px;
+    gap: 18px;
+}
+
+.download-container button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 36px;
+    border: none;
+    gap: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    outline: 3px solid transparent;
+    outline-offset: 0px;
+    transition: all 0.3s ease;
+}
+
+.download-container button:hover {
+    outline: 2px solid #fff;
+    outline-offset: 5px;
+}
+
+.download-container button i {
+    font-size: 24px;
+}
+
+.download-container p {
+    color: #fff;
+    font-size: 13px;
+}
+
+.download-container p a {
+    color: #fff;
+}
+
+.download-container p:nth-child(3) {
+    font-size: 11px;
+}
+
+main img {
+    position: absolute;
+    top: 390px;
+    height: 564px;
+    width: 856px;
+    border-radius: 10px;
+}
+
+/************************************** AGENTS **************************************/
