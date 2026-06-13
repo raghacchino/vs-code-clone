@@ -1,11 +1,16 @@
+::selection {
+  background-color: #7dd3fc;
+  color: #000;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
 body {
-    font-family: sans-serif;
     overflow-x: hidden;
     background: #0d1014;
 }
@@ -255,6 +260,7 @@ main h3 {
     border: none;
     gap: 10px;
     font-size: 20px;
+    font-weight: 600;
     border-radius: 8px;
     outline: 3px solid transparent;
     outline-offset: 0px;
@@ -292,3 +298,117 @@ main img {
 }
 
 /************************************** AGENTS **************************************/
+
+.agents-info-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 100px;
+}
+
+.agents-info {
+    margin-right: 80px;
+    width: 320px;
+}
+
+.agents-info h2 {
+    color: #fff;
+    font-size: 30px;
+    margin: 12px 0;
+    font-weight: 500;
+}
+
+.agents-info p {
+    color: #889cb8;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.agents-info a {
+    color: #38bdf8;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.agents-info a:hover {
+    text-decoration-color: #8fc3fe;
+}
+
+.agents img {
+    border-radius: 10px;
+}
+
+.agents-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 120px 20px;
+    gap: 50px;
+}
+
+.agents-card {
+    height: 340px;
+    width: 326px;
+    border: 1px solid #333539;
+    background-color: #16191d;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.agents-card h3 {
+    font-size: 22px;
+    color: #e2e2e2;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.agents-card p {
+    color: #889cb8;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ai-agents-container {
+    padding: 30px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ai-agents-card {
+    background: url(./assets/ai-agents-img.webp);
+    background-size: cover;
+    height: 180px;
+    width: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+    border: 1px solid #ffffff1f;
+    border-radius: 8px;
+}
+
+.ai-agents-card h3 {
+    color: #fff;
+    font-size: 30px;
+    width: 25%;
+    font-weight: 500;
+}
+
+.ai-agents-text p {
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.ai-agents-text button {
+    border: 1px solid #333539;
+    background-color: #16191d;
+    border-radius: 4px;
+    padding: 6px 14px;
+    color: #fff;
+    margin: 10px 0;
+    font-size: 16px;
+}
