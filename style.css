@@ -380,19 +380,19 @@ main img {
     background: url(./assets/ai-agents-img.webp);
     background-size: cover;
     height: 180px;
-    width: 94%;
+    width: 95%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 25px;
     border: 1px solid #ffffff1f;
     border-radius: 8px;
+    margin-bottom: 30px;
 }
 
 .ai-agents-card h3 {
     color: #fff;
-    font-size: 30px;
-    width: 25%;
+    font-size: 26px;
     font-weight: 500;
 }
 
@@ -411,4 +411,46 @@ main img {
     color: #fff;
     margin: 10px 0;
     font-size: 16px;
+}
+
+/************************************** EDITOR **************************************/
+
+.editor-info-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 100px;
+}
+
+.editor-info {
+    margin-right: 80px;
+    width: 320px;
+}
+
+.editor-info h2 {
+    color: #fff;
+    font-size: 30px;
+    margin: 12px 0;
+    font-weight: 500;
+}
+
+.editor-info p {
+    color: #889cb8;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.editor-info a {
+    color: #38bdf8;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.editor-info a:hover {
+    text-decoration-color: #8fc3fe;
+}
+
+.editor img {
+    border-radius: 10px;
 }
