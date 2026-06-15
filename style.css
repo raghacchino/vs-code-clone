@@ -415,7 +415,7 @@ main img {
 
 /************************************** EDITOR **************************************/
 
-.editor-info-img-container {
+.editor-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -453,4 +453,97 @@ main img {
 
 .editor img {
     border-radius: 10px;
+}
+
+/************************************** CODE **************************************/
+
+.extensions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.extensions-info {
+    padding: 30px 50px 30px 100px;
+    margin-bottom: 80px;
+    /* margin-left: 100px; */
+}
+
+.extensions-info h3 {
+    color: #fff;
+    font-size: 30px;
+    margin: 12px 0;
+    font-weight: 500;
+}
+
+.extensions-info p {
+    color: #889cb8;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.extensions-info a {
+    color: #38bdf8;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.extensions-info a:hover {
+    text-decoration-color: #8fc3fe;
+}
+
+.extensions-grid {
+    display: grid;
+    grid-template: repeat(3, 130px)/repeat(3, 240px);
+    gap: 10px;
+    padding: 30px 100px 30px 50px;
+}
+
+.grid-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #16191d;
+    border: 1px solid #414141;
+    padding: 0 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.grid-card:hover {
+    border: 1px solid #818181;
+}
+
+.grid-card img {
+    height: 40%;
+}
+
+.card-info h4 {
+    color: #e2e2e2;
+    font-size: 17px;
+}
+
+.card-info p.card-para {
+    font-size: 14px;
+    color: #889cb8;
+    font-weight: 500;
+}
+
+.extensions-grid > p {
+    color: #e2e2e2;
+    font-size: 14px;
+    width: 740px;
+    text-align: center;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.extensions-grid > p a {
+    color: #7dd3fc;
+}
+
+.extensions-grid > p a:hover {
+    text-decoration-color: #8fc3fe;
 }
