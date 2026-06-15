@@ -497,29 +497,30 @@ main img {
 
 .extensions-grid {
     display: grid;
-    grid-template: repeat(3, 130px)/repeat(3, 240px);
+    grid-template: repeat(3, 120px)/repeat(3, 240px);
     gap: 10px;
     padding: 30px 100px 30px 50px;
 }
 
 .grid-card {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     gap: 10px;
     background-color: #16191d;
-    border: 1px solid #414141;
-    padding: 0 20px;
+    border: 1px solid #2b2f38;
+    padding: 10px 20px;
     border-radius: 10px;
     text-decoration: none;
 }
 
 .grid-card:hover {
-    border: 1px solid #818181;
+    border: 1px solid #414141;
 }
 
 .grid-card img {
-    height: 40%;
+    height: 50%;
+    margin-bottom: 20px;
 }
 
 .card-info h4 {
