@@ -563,8 +563,6 @@ main img {
 
 .language-info {
     padding: 30px 50px 30px 100px;
-    /* margin-bottom: 80px; */
-    /* margin-left: 100px; */
 }
 
 .language-info h3 {
@@ -591,7 +589,6 @@ main img {
 .language-card {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
 }
 
 .language-card img {
