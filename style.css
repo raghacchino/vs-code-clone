@@ -1,6 +1,6 @@
 ::selection {
-  background-color: #7dd3fc;
-  color: #000;
+    background-color: #7dd3fc;
+    color: #000;
 }
 
 * {
@@ -28,7 +28,7 @@ body {
     pointer-events: none;
 } */
 
-/**************************************** NAVBAR ****************************************/
+/************************************** NAVBAR **************************************/
 
 nav {
     height: 74px;
@@ -212,7 +212,7 @@ nav {
     margin-right: 10px;
 }
 
-/**************************************** MAIN ****************************************/
+/************************************** MAIN **************************************/
 
 main {
     position: relative;
@@ -299,7 +299,7 @@ main img {
     border-radius: 10px;
 }
 
-/**************************************** AGENTS ****************************************/
+/************************************** AGENTS **************************************/
 
 .agents-info-img-container {
     display: flex;
@@ -415,9 +415,9 @@ main img {
     font-size: 16px;
 }
 
-/**************************************** EDITOR ****************************************/
+/************************************** EDITOR **************************************/
 
-.editor-container {
+.editor {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -457,9 +457,7 @@ main img {
     border-radius: 10px;
 }
 
-/**************************************** CODE ****************************************/
-
-/****************************** EXTENSIONS ******************************/
+/************************************** EXTENSIONS **************************************/
 
 .extensions {
     display: flex;
@@ -536,7 +534,7 @@ main img {
     font-weight: 500;
 }
 
-.extensions-grid > p {
+.extensions-grid>p {
     color: #e2e2e2;
     font-size: 14px;
     width: 740px;
@@ -545,15 +543,15 @@ main img {
     margin: 20px;
 }
 
-.extensions-grid > p a {
+.extensions-grid>p a {
     color: #7dd3fc;
 }
 
-.extensions-grid > p a:hover {
+.extensions-grid>p a:hover {
     text-decoration-color: #8fc3fe;
 }
 
-/****************************** LANGUAGE ******************************/
+/************************************** LANGUAGE **************************************/
 
 .language {
     display: flex;
@@ -598,4 +596,46 @@ main img {
 .language-card p {
     color: #e2e2e2;
     font-family: 'Consolas';
+}
+
+/************************************** CUSTOMIZABLE **************************************/
+
+.customizable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 100px;
+}
+
+.customizable-info {
+    margin-right: 80px;
+    width: 320px;
+}
+
+.customizable-info h3 {
+    color: #e2e2e2;
+    font-size: 30px;
+    margin: 12px 0;
+    font-weight: 500;
+}
+
+.customizable-info p {
+    color: #889cb8;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.customizable-info a {
+    color: #38bdf8;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.customizable-info a:hover {
+    text-decoration-color: #8fc3fe;
+}
+
+.customizable img {
+    border-radius: 10px;
 }
