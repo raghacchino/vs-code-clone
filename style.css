@@ -28,7 +28,7 @@ body {
     pointer-events: none;
 } */
 
-/************************************** NAVBAR **************************************/
+/**************************************** NAVBAR ****************************************/
 
 nav {
     height: 74px;
@@ -205,14 +205,14 @@ nav {
     background-color: #007ACC;
     border: none;
     border-radius: 4px;
-    color: #fff;
+    color: #e2e2e2;
     font-size: 15px;
     font-weight: 600;
     letter-spacing: 0.5px;
     margin-right: 10px;
 }
 
-/************************************** MAIN **************************************/
+/**************************************** MAIN ****************************************/
 
 main {
     position: relative;
@@ -226,7 +226,7 @@ main {
     background-size: cover;
     /* background-color: red; */
     margin-top: 70px;
-    color: #fff;
+    color: #e2e2e2;
 }
 
 main h2 {
@@ -270,7 +270,7 @@ main h3 {
 }
 
 .download-container button:hover {
-    outline: 2px solid #fff;
+    outline: 2px solid #e2e2e2;
     outline-offset: 5px;
 }
 
@@ -279,12 +279,12 @@ main h3 {
 }
 
 .download-container p {
-    color: #fff;
+    color: #e2e2e2;
     font-size: 13px;
 }
 
 .download-container p a {
-    color: #fff;
+    color: #e2e2e2;
 }
 
 .download-container p:nth-child(3) {
@@ -299,7 +299,7 @@ main img {
     border-radius: 10px;
 }
 
-/************************************** AGENTS **************************************/
+/**************************************** AGENTS ****************************************/
 
 .agents-info-img-container {
     display: flex;
@@ -314,7 +314,7 @@ main img {
 }
 
 .agents-info h2 {
-    color: #fff;
+    color: #e2e2e2;
     font-size: 30px;
     margin: 12px 0;
     font-weight: 500;
@@ -393,13 +393,13 @@ main img {
 }
 
 .ai-agents-card h3 {
-    color: #fff;
+    color: #e2e2e2;
     font-size: 26px;
     font-weight: 500;
 }
 
 .ai-agents-text p {
-    color: #fff;
+    color: #e2e2e2;
     font-weight: 500;
     font-size: 17px;
     margin: 10px 0;
@@ -410,12 +410,12 @@ main img {
     background-color: #16191d;
     border-radius: 4px;
     padding: 6px 14px;
-    color: #fff;
+    color: #e2e2e2;
     margin: 10px 0;
     font-size: 16px;
 }
 
-/************************************** EDITOR **************************************/
+/**************************************** EDITOR ****************************************/
 
 .editor-container {
     display: flex;
@@ -430,7 +430,7 @@ main img {
 }
 
 .editor-info h2 {
-    color: #fff;
+    color: #e2e2e2;
     font-size: 30px;
     margin: 12px 0;
     font-weight: 500;
@@ -457,7 +457,9 @@ main img {
     border-radius: 10px;
 }
 
-/************************************** CODE **************************************/
+/**************************************** CODE ****************************************/
+
+/****************************** EXTENSIONS ******************************/
 
 .extensions {
     display: flex;
@@ -472,7 +474,7 @@ main img {
 }
 
 .extensions-info h3 {
-    color: #fff;
+    color: #e2e2e2;
     font-size: 30px;
     margin: 12px 0;
     font-weight: 500;
@@ -509,7 +511,7 @@ main img {
     gap: 10px;
     background-color: #16191d;
     border: 1px solid #2b2f38;
-    padding: 10px 20px;
+    padding: 16px 20px;
     border-radius: 10px;
     text-decoration: none;
 }
@@ -549,4 +551,54 @@ main img {
 
 .extensions-grid > p a:hover {
     text-decoration-color: #8fc3fe;
+}
+
+/****************************** LANGUAGE ******************************/
+
+.language {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.language-info {
+    padding: 30px 50px 30px 100px;
+    /* margin-bottom: 80px; */
+    /* margin-left: 100px; */
+}
+
+.language-info h3 {
+    color: #e2e2e2;
+    font-size: 30px;
+    margin: 12px 0;
+    font-weight: 500;
+}
+
+.language-info p {
+    color: #889cb8;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.language-grid {
+    display: grid;
+    grid-template: repeat(4, 50px)/repeat(3, 240px);
+    gap: 10px;
+    padding: 30px 100px 30px 50px;
+}
+
+.language-card {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.language-card img {
+    height: 100%;
+}
+
+.language-card p {
+    color: #e2e2e2;
+    font-family: 'Consolas';
 }
