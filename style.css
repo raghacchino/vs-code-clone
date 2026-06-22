@@ -68,6 +68,11 @@ nav {
     padding: 0 10px;
 }
 
+.nav-icon {
+    display: flex;
+    align-items: center;
+}
+
 .nav-icon a {
     display: flex;
     /* flex-direction: row; */
@@ -79,7 +84,8 @@ nav {
 }
 
 .nav-icon img {
-    height: 28px;
+    height: 24px;
+    margin-top: 6px;
 }
 
 .nav-icon h1 {
@@ -161,15 +167,26 @@ nav {
     background-color: #2b2f38;
 }
 
-.drop-link:nth-child(3) .drop-down {
+.drop-link.docs .drop-down {
+    left: -1px;
+    bottom: -130px;
+}
+
+.drop-link.docs .drop-down::before {
+    top: 0;
+    left: 71px;
+    width: 108px;
+}
+
+.drop-link.resources .drop-down {
     left: -1px;
     bottom: -92px;
 }
 
-.drop-link:nth-child(3) .drop-down::before {
+.drop-link.resources .drop-down::before {
     top: 0;
-    left: 71px;
-    width: 108px;
+    left: 108px;
+    width: 70px;
 }
 
 .drop-down li {
@@ -429,7 +446,7 @@ main img {
     width: 320px;
 }
 
-.editor-info h2 {
+.editor-info h3 {
     color: #e2e2e2;
     font-size: 30px;
     margin: 12px 0;
